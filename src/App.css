@@ -1,0 +1,26 @@
+body, #root, html {
+    height: 100%;
+}
+
+#root {
+    /*background-color: #121212;*/
+}
+
+#root .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#root .MuiBackdrop-root {
+    z-index: 99999;
+}
+
+
+/*Validation*/
+.srv-validation-message {
+    color: red;
+}
+
+.login-error-message {
+    margin-left: 32px;
+}

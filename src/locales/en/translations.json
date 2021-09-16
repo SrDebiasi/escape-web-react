@@ -1,0 +1,240 @@
+{
+  "locale": "en",
+  "boolean": {
+    "true": "Yes",
+    "false": "No"
+  },
+  "currency": {
+    "locale": "en",
+    "iso" : "USD",
+    "prefix": "USD $",
+    "precision": "2",
+    "decimal": ".",
+    "thousands": ","
+  },
+  "phone": {
+    "mask": "+1 ###-###-####"
+  },
+  "dates": {
+    "locale": "en",
+    "date": "M/D/YYYY",
+    "day-month": "M/D",
+    "day": "D",
+    "datetime": "M/D/YYYY HH:MM:SS"
+  },
+  "database": {
+    "date": "YYYY-MM-DD"
+  },
+  "login": {
+    "welcome": "Welcome to Escape Schedule",
+    "error": "Email or password is incorrect"
+  },
+  "main": {
+  },
+  "days": {
+    "sunday": "Sunday",
+    "sun": "Sun",
+    "monday": "Monday",
+    "mon": "Mon",
+    "tuesday": "Tuesday",
+    "tue": "Tue",
+    "wednesday": "Wednesday",
+    "wed": "Wed",
+    "thursday": "Thursday",
+    "thu": "Thu",
+    "friday": "Friday",
+    "fri": "Fri",
+    "saturday": "Saturday",
+    "sat": "Sat"
+  },
+  "common": {
+    "clear" : "Clear",
+    "busy": "Busy",
+    "date": "Date",
+    "time" : "Time",
+    "vacancies" : "Vacancies",
+    "select" : "Select",
+    "confirm" : "Confirm",
+    "back" : "Back",
+    "summary": "Summary",
+    "disabled": "Disabled",
+    "enabled": "Enabled",
+    "confirmed": "Confirmed",
+    "unconfirmed": "Not confirmed yet",
+    "picture": "Picture",
+    "room": "Room",
+    "rooms": "Rooms",
+    "timetable": "Timetable",
+    "schedule": "Schedule",
+    "appointment": "Appointment",
+    "personal_data": "Personal data",
+    "not": "not",
+    "password": "Password",
+    "email": "Email",
+    "login": "Login",
+    "language": "Language",
+    "agree": "Agree",
+    "disagree": "Disagree",
+    "close": "Close",
+    "add": "Add",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "are_you_sure": "Are you sure?",
+    "search": "Search",
+    "people": "People",
+    "full": "Full"
+  },
+  "message": {
+    "save": {
+      "success": "The record has been saved.",
+      "failure": "The record hasn't been saved."
+    }
+  },
+  "account": {
+    "create": "Create an account",
+    "error": "Error on create account",
+    "required": "Field is required.",
+    "labels" : {
+      "header": "Create your account",
+      "submit": "create account",
+      "name": "Name",
+      "email": "Email",
+      "company": "Escape Game name",
+      "password": "Password",
+      "repeat_password": "Repeat Password"
+    },
+    "messages": {
+      "created" : "Your account was created."
+    }
+  },
+  "menu": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "schedule": "Schedule",
+    "room": "Rooms",
+    "login": "Login",
+    "embed": "Embed Code"
+  },
+  "language": {
+    "english": "English",
+    "portuguese": "Portuguese"
+  },
+  "calendar": {
+    "hide": "Hide Schedule",
+    "show": "Show Schedule",
+    "today": "Today",
+    "category": "Rooms",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "4day": "4 Days"
+  },
+  "schedule": {
+    "add-or-edit": "Add an Appointment | Edit an Appointment",
+    "no-room": "You dont have active rooms",
+    "labels": {
+      "options": "Schedule options",
+      "name": "Name",
+      "phone": "Phone",
+      "timetable": "Time",
+      "room": "Room",
+      "email": "Email",
+      "quantity": "Quantity",
+      "day": "Day",
+      "name_responsible": "Name of the responsible person",
+      "paid": "Paid",
+      "unpaid": "Not paid yet",
+      "payment_value": "Payment value",
+      "payment_type": "Payment type",
+      "payment_money": "Money",
+      "payment_credit_debit_card": "Credit/Debit Card"
+    },
+    "summary": "Today you don't have confirmed schedules. | Today you have {schedulesAmount} confirmed schedule. | Today you have {schedulesAmount} confirmed schedules. "
+  },
+  "room": {
+    "add-or-edit": "Add a Room | Edit a Room",
+    "add": "Add a Room",
+    "edit": "Edit a Room",
+    "labels": {
+      "options": "Room options",
+      "name": "Name",
+      "short_name": "Short name",
+      "active": "Active",
+      "timetable": "Timetables",
+      "image": "Image",
+      "enable": "Enable",
+      "vacancies": "Vacancies",
+      "ticket": "Ticket",
+      "ticket_hint": "This type defines that the user buy a ticket decreasing the amount of vacancies",
+      "room": "Room",
+      "room_hint": "This type defines that the user buy the time to play a room",
+      "vacancies_hint": "How many people in the room?",
+      "play_time": "Play time",
+      "play_time_hint": "in minutes",
+      "amount": "Amount",
+      "schedule_types": "Schedule types",
+      "room_price": "Room price",
+      "room_price_hint": "Price used when schedule type is 'Room'",
+      "ticket_price": "Ticket price",
+      "ticket_price_hint": "Price used when schedule type is 'Ticket'",
+      "upload_file": "Upload a image file",
+      "file_input": "File input"
+    },
+    "configuration": {
+      "labels": {
+        "simultaneous": "Simultaneous",
+        "accept_simultaneous": "Accept simultaneous appointments"
+      }
+    },
+    "summary": "Actually you have {activeRooms} active rooms and you do {not} receive simultaneous appointments",
+    "timetable": {
+      "beginning_appointment": "Select the beginning of the appointment to add",
+      "save": {
+        "success": "The time was saved.",
+        "failure": "Something went wrong when we tried to save the timetable."
+      }
+    }
+  },
+  "grid": {
+    "loading": "Loading the {resource}..."
+  },
+  "form": {
+    "field_required": "This field is required.",
+    "invalid_fields": "You need to fill all the required fields."
+  },
+  "widget": {
+    "timetables": {
+      "title": "Most used times",
+      "subtitle": "Number of the appointments from the last 7 days"
+    },
+    "timetables-list": {
+      "title": "Next Appointments"
+    },
+    "schedules": {
+      "title": "Number of Appointments",
+      "subtitle": "Number of the appointments from the last 7 days"
+    },
+    "revenue": {
+      "title": "Daily revenue",
+      "subtitle": "Daily revenue since 1th day"
+    }
+  },
+  "summary": {
+    "revenue": {
+      "title": "Revenue",
+      "footer": "monthly (since 1th)"
+    },
+    "schedules": {
+      "title": "Schedules",
+      "footer": "monthly (since 1th)"
+    },
+    "occupancy": {
+      "title": "Occupancy rate",
+      "footer": "monthly (since 1th)"
+    }
+  },
+  "table" : {
+    "no_records" : "No records found."
+  }
+}

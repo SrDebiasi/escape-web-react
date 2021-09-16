@@ -1,0 +1,231 @@
+{
+  "locale": "pt",
+  "boolean": {
+    "true": "Sim",
+    "false": "Não"
+  },
+  "currency": {
+    "locale": "pt",
+    "iso": "BRL",
+    "prefix": "R$ ",
+    "precision": "2",
+    "decimal": ".",
+    "thousands": ","
+  },
+  "phone": {
+    "mask": "(##) #####-####"
+  },
+  "dates": {
+    "locale": "pt",
+    "date": "DD/MM/YYYY",
+    "day-month": "DD/MM",
+    "day": "D",
+    "datetime": "DD/MM/YYYY HH:MM:SS"
+  },
+  "database": {
+    "date": "YYYY-MM-DD"
+  },
+  "login": {
+    "welcome": "Bem vindo a Escape Schedule",
+    "error": "Email ou senha incorreta"
+  },
+  "main": {
+  },
+  "days": {
+    "sunday": "Domingo",
+    "sun": "Dom",
+    "monday": "Segunda",
+    "mon": "Seg",
+    "tuesday": "Terça",
+    "tue": "Ter",
+    "wednesday": "Quarta",
+    "wed": "Qua",
+    "thursday": "Quinta",
+    "thu": "Qui",
+    "friday": "Sexta",
+    "fri": "Sex",
+    "saturday": "Sábado",
+    "sat": "Sab"
+  },
+  "common": {
+    "clear": "Limpar",
+    "busy": "Ocupado",
+    "date": "Data",
+    "time": "Horário",
+    "vacancies": "Vagas",
+    "select": "Selecionar",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "summary": "Sumário",
+    "disabled": "Desativado",
+    "enabled": "Ativado",
+    "confirmed": "Confirmado",
+    "timetable": "Horário",
+    "unconfirmed": "Não confirmado",
+    "picture": "Foto",
+    "room": "Sala",
+    "rooms": "Salas",
+    "schedule": "Agendamento",
+    "appointment": "Horário",
+    "personal_data": "Dados pessoais",
+    "not": "não",
+    "password": "Senha",
+    "login": "Login",
+    "language": "Idioma",
+    "agree": "Aceito",
+    "disagree": "Não aceito",
+    "close": "Fechar",
+    "add": "Adicionar",
+    "cancel": "Cancelar",
+    "delete": "Deletar",
+    "save": "Salvar",
+    "are_you_sure": "Você tem certeza?",
+    "search": "Pesquisa",
+    "people": "Pessoas",
+    "full": "Cheio"
+  },
+  "message": {
+    "save": {
+      "success": "O registro foi salvo.",
+      "failure": "O registro não foi salvo."
+    }
+  },
+  "account": {
+    "error": "Erro ao criar a conta",
+    "required": "{field} é obrigatório.",
+    "labels": {
+      "header": "Crie sua conta",
+      "submit": "criar conta",
+      "name": "Nome",
+      "email": "Email",
+      "company": "Nome do Escape Game",
+      "password": "Senha",
+      "repeat_password": "Repita a Senha"
+    }
+  },
+  "menu": {
+    "home": "Principal",
+    "dashboard": "Painel",
+    "schedule": "Agendamentos",
+    "room": "Salas",
+    "login": "Login",
+    "embed": "Embutir Código"
+  },
+  "language": {
+    "english": "Inglês",
+    "portuguese": "Português"
+  },
+  "calendar": {
+    "hide": "Esconder calendário",
+    "show": "Mostrar calendário",
+    "today": "Hoje",
+    "category": "Salas",
+    "day": "Dia",
+    "week": "Semana",
+    "month": "Mês",
+    "4day": "4 Dias"
+  },
+  "schedule": {
+    "add-or-edit": "Adicionar um Agendamento | Editar um Agendamento",
+    "no-room": "Você não possui sala ativa",
+    "labels": {
+      "options": "Opções dos Agendamentos",
+      "name": "Nome",
+      "phone": "Telefone",
+      "timetable": "Horário",
+      "room": "Sala",
+      "email": "Email",
+      "quantity": "Quantidade",
+      "day": "Dia",
+      "name_responsible": "Nome da pessoa responsável",
+      "paid": "Pago",
+      "unpaid": "Não pago",
+      "payment_value": "Valor pagamento",
+      "payment_type": "Tipo pagamento",
+      "payment_money": "Dinheiro",
+      "payment_credit_debit_card": "Cartão de Crédito/Débito"
+    },
+    "summary": "Hoje você não tem agendamentos confirmados.|Hoje você tem {schedulesAmount} agendamento confirmado.|Hoje você tem {schedulesAmount} agendamentos confirmados."
+  },
+  "room": {
+    "add-or-edit": "Adicionar uma Sala | Editar uma Sala",
+    "labels": {
+      "options": "Opções das Salas",
+      "name": "Nome",
+      "short_name": "Nome curto",
+      "active": "Ativo",
+      "timetable": "Horários",
+      "image": "Foto",
+      "enable": "Ativo",
+      "vacancies": "Vagas",
+      "ticket": "Ingresso",
+      "ticket_hint": "Este tipo a pessoa compra o ingresso e diminui a quantidade de vagas na sala para jogar",
+      "room": "Sala",
+      "room_hint": "Este tipo a pessoa compra a sala para jogar",
+      "vacancies_hint": "Quantas pessoas cabem na sala?",
+      "play_time": "Tempo de jogo",
+      "play_time_hint": "em minutos",
+      "amount": "Total",
+      "schedule_types": "Tipo de agendamento",
+      "room_price": "Preço da sala",
+      "room_price_hint": "Preço usado para o tipo de agendamento 'Sala'",
+      "ticket_price": "Preço do ingresso",
+      "ticket_price_hint": "Preço usado para o tipo de agendamento'Ingresso'",
+      "upload_file": "Subir uma foto",
+      "file_input": "Campo do arquivo"
+    },
+    "configuration": {
+      "labels": {
+        "simultaneous": "Simultanêo",
+        "accept_simultaneous": "Aceitar atendimentos simultâneos"
+      }
+    },
+    "summary": "Atualmente você não tem salas ativas e você {not} recebe agendamento simultâneo.|Atualmente você tem {activeRooms} sala ativa e você {not} recebe agendamento simultâneo.|Atualmente você tem {activeRooms} salas ativas e você {not} recebe agendamento simultâneo.",
+    "timetable": {
+      "beginning_appointment": "Selecione o início do horário para adicionar",
+      "save": {
+        "success": "O horário foi salvo",
+        "failure": "Algo aconteceu e não pode ser salvo seu horário"
+      }
+    }
+  },
+  "grid": {
+    "loading": "Carregando registro..."
+  },
+  "form": {
+    "field_required": "O campo é requirido.",
+    "save_or_discard_changes": "É necessário salvar ou cancelar as alterações.",
+    "invalid_fields": "Você precisa preencher todos os campos requiridos."
+  },
+  "widget": {
+    "timetables": {
+      "title": "Horários mais utilizados",
+      "subtitle": "Número de agendamentos dos últimos 7 dias"
+    },
+    "timetables-list": {
+      "title": "Próximos agendamentos"
+    },
+    "schedules": {
+      "title": "Número de agendamentos",
+      "subtitle": "Número de agendamentos dos últimos 7 dias"
+    },
+    "revenue": {
+      "title": "Receita diária",
+      "subtitle": "Receitas a partir do primeiro dia do mês"
+    }
+  },
+  "summary": {
+    "revenue": {
+      "title": "Receita",
+      "footer": "mensal (a partir do dia 1)"
+    },
+    "schedules": {
+      "title": "Agendamentos",
+      "footer": "mensal (a partir do dia 1)"
+    },
+    "occupancy": {
+      "title": "Taxa de ocupação",
+      "footer": "mensal (a partir do dia 1)"
+    }
+  }
+}
